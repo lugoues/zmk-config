@@ -1,0 +1,23 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#include "zmk-helpers/helper.h"
+
+
+
+ZMK_LAYER(base,
+  //┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+          &kp Q            &kp W             &kp F            &kp P             &kp B
+          &kp A            &kp R             &kp S            &kp T             &kp G
+          &kp Z            &kp X             &kp C            &kp D             &kp V
+                                                              &kp ESC           &kp K             &kp K
+  //                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛
+  //                                                                      ┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+                                                                           &kp J            &kp L             &kp U             &kp Y            &kp K
+                                                                           &kp M            &kp N             &kp E             &kp I            &kp O
+                                                                           &kp K            &kp H             &kp K             &kp K            &kp K
+                                                          &kp K            &kp K            &kp K
+  //                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛
+)
+
+
