@@ -1,0 +1,20 @@
+{
+  "name": "ZMK Development",
+  "dockerFile": "Dockerfile",
+  "runArgs": [
+    "--security-opt",
+    "label=disable"
+  ],
+  "containerEnv": {
+    "WORKSPACE_DIR": "${containerWorkspaceFolder}",
+    "PROMPT_COMMAND": "history -a"
+  },
+  "features": {
+    "ghcr.io/lugoues/devcontainer-features/just:latest": {
+      "version": "1.35.0"
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
+}
