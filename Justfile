@@ -84,8 +84,9 @@ clean-nix:
 draw:
     #!/usr/bin/env bash
     set -euo pipefail
-    keymap -c "{{ draw }}/config.yaml" parse -z "{{ config }}/base.keymap" >"{{ draw }}/base.yaml"
-    keymap -c "{{ draw }}/config.yaml" draw "{{ draw }}/base.yaml" -k "ferris/sweep" >"{{ draw }}/base.svg"
+    keymap -c "{{ draw }}/config.yaml" parse -z "{{ config }}/chocofi.keymap" >"{{ draw }}/chocofi.yaml"
+    keymap -c "{{ draw }}/config.yaml" draw "{{ draw }}/chocofi.yaml" -j "{{ draw }}/chocofi.layout.json" >"{{ draw }}/chocofi.svg"
+    echo "done."
 
 # initialize west
 init:

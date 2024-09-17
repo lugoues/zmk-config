@@ -200,9 +200,9 @@ ZMK_LAYER(fn,
 
 ZMK_LAYER(Applications,
   //┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
-     ITSYCAL          SPOTIFY           FORKLIFT         VSCODE            CHROME
-     NOTION           FIREFOX           ITERM            RAYCAST           MIMESTREAM
-     DISCORD          AUTHY             TODOIST          SLACK             ONEPASSWORD
+     ITSYCAL          SPOTIFY           FORKLIFT         XXX               XXX
+     NOTION           XXX               ITERM            RAYCAST           MIMESTREAM
+     DISCORD          TODOIST           CHATGPT          XXX               ONEPASSWORD
                                                          CANCEL            ___              ___
   //                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛
   //                                                                      ┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
@@ -228,7 +228,7 @@ ZMK_LAYER(Yabai,
                                                                            &none            &none            &none             &none             &none
                                                         &none              &none            &none
 )//                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛
-
+st
 
 ZMK_LAYER(System,
   //┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
@@ -239,7 +239,7 @@ ZMK_LAYER(System,
   //                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛
   //                                                                      ┏━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
                                                                            &out OUT_TOG     &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_CLR
-                                                                           XXX              XXX               XXX              XXX               XXX
+                                                                           &kp Q            XXX               XXX              XXX               XXX
                                                                            XXX              XXX               XXX              XXX               XXX
                                                           XXX              XXX              XXX
   //                                                      ┗━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━┛

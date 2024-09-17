@@ -1,8 +1,149 @@
+# layout:
+#   qmk_info_json: chocofi.layout.json
+
 parse_config:
-  zmk_preamble: "#include <zmk-helpers/key-labels/34.h>"
+  trans_legend: ""
+  zmk_preamble: '#include "boards/shields/chocofi/keypos.h"'
   zmk_additional_includes:
     - "modules/helpers/include"
+  raw_binding_map:
+    "&kp LG(C)": "Copy"
+    "&kp LG(X)": "Cut"
+    "&kp LG(V)": "Paste"
+    "&caps_word": "Caps Word"
+    "&kp ESC": {h: Controls, t: ⌀}
+    "&lt L_NAV SPACE": {t: ⎵, h: Nav}
+    "&lt L_APPS TAB": {t: ⇥, s: ⇤, h: Apps}
+    "&lt L_YABAI RET": {t: ⏎, h: Yabai}
+    "&bksp_del": {t: ⌫, s: ⌦, h: Fun}
+    "&num_layer_word L_NUM 0": {t: ℕ, h: Num}
+    "&sl L_SYSTEM": "System"
+    "&sl L_FN": "Fn"
+    "&kp C_VOL_UP": "$$tabler:volume$$"
+    "&kp C_NEXT": "$$tabler:player-skip-forward$$"
+    "&kp C_VOL_UP": "$$tabler:volume$$"
+    "&kp C_VOL_DN": "$$tabler:volume-2$$"
+    "&kp C_PREV": "$$tabler:player-skip-back$$"
+    "&kp C_STOP": "$$tabler:player-stop$$"
+    "&kp C_PLAY_PAUSE": "$$tabler:player-play$$"
+    "&kp C_MUTE": "$$tabler:volume-off$$"
+    "CANCEL": "⌀"
+
+    "CHATGPT": "$$tabler:ai$$"
+    "CHROME": "$$tabler:brand-chrome$$"
+    "DISCORD": "$$tabler:brand-discord$$"
+    "FIREFOX": "$$tabler:brand-firefox$$"
+    "FORKLIFT": "$$tabler:forklift$$"
+    "ITERM": "$$tabler:terminal-2$$"
+    "ITSYCAL": "$$tabler:calendar$$"
+    "MEDIAMATE": "$$tabler:music-bolt$$"
+    "MIMESTREAM": "$$tabler:mail$$"
+    "NOTION": "$$tabler:brand-notion$$"
+    "ONEPASSWORD": "$$tabler:password$$"
+    "RAYCAST": "$$tabler:search$$"
+    "SPOTIFY": "$$tabler:brand-spotify$$"
+    "TODOIST": "$$tabler:list-check$$"
+    "VSCODE": "$$tabler:brand-vscode$$"
+    "&bt BT_SEL 0": {t: "$$tabler:bluetooth$$", h: 1}
+    "&bt BT_SEL 1": {t: "$$tabler:bluetooth$$", h: 2}
+    "&bt BT_SEL 2": {t: "$$tabler:bluetooth$$", h: 3}
+    "&bt BT_CLR": "$$tabler:bluetooth-off$$"
+
+
+
+
+
 
 draw_config:
-  footer_text: "urob/zmk-config"
-  dark_mode: auto
+  footer_text: "lugoues/zmk-config"
+  # dark_mode: auto
+  # append_colon_to_layer_header: true
+  arc_radius: 6.0
+  arc_scale: 1.0
+  combo_h: 26.0
+  combo_w: 28.0
+  inner_pad_h: 2.0
+  inner_pad_w: 2.0
+  key_h: 56.0
+  key_rx: 6.0
+  key_ry: 6.0
+  key_w: 60.0
+  line_spacing: 1.2
+  outer_pad_h: 56.0
+  outer_pad_w: 30.0
+  small_pad: 2.0
+  split_gap: 30.0
+  glyph_urls:
+    "tabler": "https://unpkg.com/@tabler/icons/icons/outline/{}.svg"
+    "tabler-filled": "https://unpkg.com/@tabler/icons/icons/filled/{}.svg"
+    "mdi": "https://unpkg.com/@mdi/svg/svg/{}.svg"
+    "mdil": "https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg"
+    "material": "https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg"
+    "phosphor": "https://unpkg.com/@phosphor-icons/core/assets/{}.svg"
+
+  svg_style: |
+    /* font and background color specifications */
+    svg {
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        font-size: 14px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        /*        fill: #24292e;*/
+        background: #222222
+    }
+    /* default key styling */
+    rect {
+        fill: #f6f8fa;
+        stroke: #c9cccf;
+        stroke-width: 1;
+    }
+    /* color accent for combo boxes */
+    rect.combo {
+        fill: #AAA;
+    }
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        fill: #e9f;
+    }
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+        fill: #666;
+        stroke: #222222;
+        stroke-width: 1;
+    }
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+    /* styling for layer labels */
+    text.label {
+        font-weight: bold;
+        text-anchor: start;
+        stroke: white;
+        stroke-width: 2;
+        paint-order: stroke;
+    }
+    /* styling for combo tap, and key hold/shifted label text */
+    text.combo, text.hold, text.shifted {
+        font-size: 11px;
+    }
+    text.hold {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+    text.shifted {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+    /* styling for hold/shifted label text in combo box */
+    text.combo.hold, text.combo.shifted {
+        font-size: 8px;
+    }
+    /* styling for combo dendrons */
+    path.combo {
+        stroke-width: 1;
+        stroke: gray;
+        fill: none;
+    }
+
+  # zmk_combos:

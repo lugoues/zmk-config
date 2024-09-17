@@ -1,0 +1,255 @@
+layout: {qmk_keyboard: chocofi}
+layers:
+  base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - {t: A, h: LALT}
+  - {t: R, h: LSHIFT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LGUI}
+  - G
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - {t: ⌀, h: Controls}
+  - {t: ⎵, h: Nav}
+  - {t: ⇥, h: Apps, s: ⇤}
+  - J
+  - L
+  - U
+  - Y
+  - {t: '''', s: '"'}
+  - M
+  - {t: N, h: LGUI}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LSHIFT}
+  - {t: O, h: LALT}
+  - K
+  - H
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - {t: '?', s: '!'}
+  - {t: ⏎, h: Yabai}
+  - {t: ⌫, h: Fun, s: ⌦}
+  - {t: ℕ, h: Num}
+  num:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '6', h: LALT}
+  - {t: '4', h: LSHIFT}
+  - {t: '0', h: LCTRL}
+  - {t: '2', h: LGUI}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '8'
+  - ''
+  - ⌀
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '3', h: LGUI}
+  - {t: '1', h: LCTRL}
+  - {t: '5', h: LSHIFT}
+  - {t: '7', h: LALT}
+  - ''
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  num_word:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '6', h: LALT}
+  - {t: '4', h: LSHIFT}
+  - {t: '0', h: LCTRL}
+  - {t: '2', h: LGUI}
+  - ''
+  - ''
+  - ''
+  - ''
+  - '8'
+  - ''
+  - ⌀
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: '3', h: LGUI}
+  - {t: '1', h: LCTRL}
+  - {t: '5', h: LSHIFT}
+  - {t: '7', h: LALT}
+  - ''
+  - '9'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  nav: [Gui+ LEFT, Gui+ DOWN, Gui+ UP, Gui+ RIGHT, '', LEFT ARROW, DOWN ARROW, UP ARROW, RIGHT ARROW, '', Alt+ LEFT, PAGE DOWN, PAGE UP, Alt+ RIGHT, '', ⌀, '', '',
+    '', '', '', '', '', '', LGUI, LCTRL, LSHIFT, LALT, '', '', '', '', '', '', '', '']
+  nav_word: [Gui+ LEFT, Gui+ DOWN, Gui+ UP, Gui+ RIGHT, '', LEFT ARROW, DOWN ARROW, UP ARROW, RIGHT ARROW, '', Alt+ LEFT, PAGE DOWN, PAGE UP, Alt+ RIGHT, '', ⌀, '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  fn: [F7, F8, F9, F12, '', F4, F5, F6, F11, '', F1, F2, F3, F19, '', ⌀, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  Applications: ['$$tabler:calendar$$', '$$tabler:brand-spotify$$', '$$tabler:forklift$$', '', '', '$$tabler:brand-notion$$', '', '$$tabler:terminal-2$$', '$$tabler:search$$',
+    '$$tabler:mail$$', '$$tabler:brand-discord$$', '$$tabler:list-check$$', '$$tabler:ai$$', '', '$$tabler:password$$', ⌀, '', '', '', '', '', '', '', '$$tabler:music-bolt$$',
+    '$$tabler:player-skip-forward$$', '$$tabler:volume$$', '$$tabler:volume-2$$', '$$tabler:player-skip-back$$', '', '', '', '', '', '$$tabler:player-stop$$', '$$tabler:player-play$$',
+    '$$tabler:volume-off$$']
+  Yabai: ['&rb_y_q', '&rb_y_w', '&rb_y_f', '&rb_y_p', '&rb_y_b', '&rb_y_a', '&rb_y_r', '&rb_y_s', '&rb_y_t', '&rb_y_g', '&rb_y_z', '&rb_y_x', '&rb_y_c', '&rb_y_d',
+    '&rb_y_v', ⌀, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  System:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT TOG
+  - {t: '$$tabler:bluetooth$$', h: '1'}
+  - {t: '$$tabler:bluetooth$$', h: '2'}
+  - {t: '$$tabler:bluetooth$$', h: '3'}
+  - $$tabler:bluetooth-off$$
+  - Q
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  AppShortcuts: [Meh+ F1, Meh+ F2, Meh+ F3, Meh+ F4, Meh+ F5, Meh+ F6, Meh+ F7, Meh+ F8, Meh+ F9, Meh+ F10, Meh+ F11, Meh+ F12, Meh+ F13, Meh+ F14, Meh+ F15, '',
+    '', '', Meh+ F16, Meh+ F17, Meh+ F18, Meh+ F19, Meh+ F20, Meh+ F11, Meh+ F21, Meh+ F22, Meh+ F23, Meh+ F24, Meh+ F11, Meh+ F12, Meh+ F13, Meh+ F14, Meh+ F15,
+    '', '', '']
+combos:
+- p: [8, 24]
+  k: Caps Word
+  l: [base, num, num_word]
+- p: [4, 18]
+  k: System
+  l: [base]
+- p: [19, 20]
+  k: Fn
+  l: [base]
+- p: [11, 13]
+  k: Cut
+  l: [base, num, num_word]
+- p: [11, 12]
+  k: Copy
+  l: [base, num, num_word]
+- p: [12, 13]
+  k: Paste
+  l: [base, num, num_word]
+- p: [13, 14]
+  k: '#'
+  l: [base, num, num_word]
+- p: [1, 2]
+  k: '['
+  l: [base]
+- p: [2, 3]
+  k: ']'
+  l: [base]
+- p: [1, 2]
+  k: <
+  l: [num]
+- p: [2, 3]
+  k: '>'
+  l: [num]
+- p: [6, 7]
+  k: '{'
+  l: [num]
+- p: [7, 8]
+  k: '}'
+  l: [num]
+- p: [6, 7]
+  k: (
+  l: [base]
+- p: [7, 8]
+  k: )
+  l: [base]
+- p: [1, 6]
+  k: '@'
+  l: [base, num, num_word]
+- p: [6, 11]
+  k: '`'
+  l: [base, num, num_word]
+- p: [2, 7]
+  k: $
+  l: [base, num, num_word]
+- p: [7, 12]
+  k: '='
+  l: [base, num, num_word]
+- p: [3, 8]
+  k: +
+  l: [base, num, num_word]
+- p: [8, 13]
+  k: '-'
+  l: [base, num, num_word]
+- p: [4, 9]
+  k: '%'
+  l: [base, num, num_word]
+- p: [9, 14]
+  k: '~'
+  l: [base, num, num_word]
+- p: [18, 23]
+  k: '&'
+  l: [base, num, num_word]
+- p: [23, 28]
+  k: \
+  l: [base, num, num_word]
+- p: [28, 29]
+  k: _
+  l: [base, num, num_word]
+- p: [19, 24]
+  k: '*'
+  l: [base, num, num_word]
+- p: [24, 29]
+  k: /
+  l: [base, num, num_word]
+- p: [21, 26]
+  k: '|'
+  l: [base, num, num_word]
+- p: [26, 31]
+  k: ^
+  l: [base, num, num_word]

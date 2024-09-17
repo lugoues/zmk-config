@@ -16,7 +16,7 @@
 #define MEH(key) LC(LS(LA(key)))
 
 // Applications
-#define SLACK &kp MEH(A)
+#define AUTHY &kp MEH(A)
 #define SPOTIFY &kp MEH(B)
 #define FIREFOX &kp MEH(C)
 #define FORKLIFT &kp MEH(D)
@@ -27,8 +27,8 @@
 #define MIMESTREAM &kp MEH(I)
 #define ITERM &kp MEH(J)
 #define RAYCAST &kp MEH(K)
-#define AUTHY &kp MEH(L)
-#define TODOIST &kp MEH(M)
+#define TODOIST &kp MEH(L)
+#define CHATGPT &kp MEH(M)
 #define ITSYCAL &kp MEH(N)
 #define ONEPASSWORD &kp MEH(O)
 #define MEDIAMATE &kp MEH(P)

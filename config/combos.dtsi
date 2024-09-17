@@ -23,11 +23,11 @@
 // Misc
   ZMK_COMBO(cw , &caps_word , LM1 RM1 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
-  ZMK_COMBO(system_layer , &sl L_SYSTEM     , LT0 RT0 , L_BASE                 , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-  ZMK_COMBO(fkey_layer   , &sl L_FN         , RT1 RT2 , L_BASE                 , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-  ZMK_COMBO(cut          , &kp LG       (X) , LB3 LB1 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-  ZMK_COMBO(copy         , &kp LG       (C) , LB3 LB2 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-  ZMK_COMBO(paste        , &kp LG       (V) , LB2 LB1 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+  ZMK_COMBO(system_layer , &sl L_SYSTEM , LT0 RT0 , L_BASE                 , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+  ZMK_COMBO(fkey_layer   , &sl L_FN     , RT1 RT2 , L_BASE                 , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+  ZMK_COMBO(cut          , &kp LG(X)    , LB3 LB1 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+  ZMK_COMBO(copy         , &kp LG(C)    , LB3 LB2 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+  ZMK_COMBO(paste        , &kp LG(V)    , LB2 LB1 , L_BASE L_NUM L_NUM_WORD, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 
 // Symbols
